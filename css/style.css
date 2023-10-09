@@ -43,6 +43,13 @@ header nav ul li a{
     text-decoration: none;
 }
 
+.navbar-brand {
+    background-color: #e7efe1;
+    color: gray;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
 /* Styles for main index */
 main{
     background-position: center;
