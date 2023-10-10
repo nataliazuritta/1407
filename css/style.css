@@ -136,7 +136,7 @@ h2 {
 
 h3 {
     color: #333333;
-    background-color: #ffffff;
+    background-color: #f3f3f3;
     font-weight: bold;
     font-size: 20px;
     text-align: left;
@@ -182,7 +182,7 @@ h3 {
 
 .row {
     padding-bottom: 20px;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
 }
 
 .card {
@@ -224,11 +224,11 @@ h3 {
 /* Section below is styles for ART flex */
 
 .col-4 {
-    background-color: #ffffff;
+    background-color: #f3f3f3;
 }
 
 .illustration-img {
-    background-color: #ffffff;
+    background-color: #f3f3f3;
     order: -1;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -237,13 +237,14 @@ h3 {
 }
 
 .word-black {
-    background-color: #ffffff;
+    background-color: #f3f3f3;
     text-align: center;
     color: black;
     padding-top: 5px;
 }
 
 .container {
+    background-color: #f3f3f3;
     margin-bottom: 100px;
 }
 
