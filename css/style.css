@@ -144,7 +144,7 @@ h3 {
 }
 
 .contenedor-hand-flex {
-    background-color: #ffffff;
+    background-color: #f3f3f3;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -156,7 +156,7 @@ h3 {
 }
 
 .hand-img {
-    background-color: #ffffff;
+    background-color: #f3f3f3;
     order: -1;
     padding: 20px 50px 20px 0px;
     line-height: 1;
@@ -164,14 +164,14 @@ h3 {
 }
 
 .text-right {
-    background-color: #ffffff;
+    background-color: #f3f3f3;
     color: #8d77ab;
     text-align: left;
     font-weight: normal;
 }
 
 .text-right p {
-    background-color: #ffffff;
+    background-color: #f3f3f3;
 }
 
 .empty {
@@ -182,6 +182,7 @@ h3 {
 
 .row {
     padding-bottom: 20px;
+    margin-bottom: 100px;
 }
 
 .card {
@@ -242,6 +243,9 @@ h3 {
     padding-top: 5px;
 }
 
+.container {
+    margin-bottom: 100px;
+}
 
 /* Section below is Contact form */
 .contacto .contacto-img {
