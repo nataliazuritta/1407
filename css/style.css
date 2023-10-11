@@ -25,11 +25,16 @@ header {
     width: 100%;
 }
 
+header nav {
+    padding-right: 5px;
+}
+
 header nav ul {
     background-color: #e7efe1;
     list-style: none;
     display: flex;
     column-gap: 15px;
+    margin: 0px;
 }
 
 header nav ul li {
@@ -252,6 +257,10 @@ h3 {
     width: 100%;
 }
 
+.cajaForm {
+    margin: 0px;
+  }  
+
 /* Styles for Blog*/
 
 
@@ -302,6 +311,16 @@ a {
     .col-6-div{
         text-align: center;
         align-items: center;
+    }
+
+    .hand-img {
+        display: none;
+        visibility:hidden;
+    }
+
+    .caja-card{
+        display: flex;
+        flex-direction: column;
     }
 
     .contacto-img{
