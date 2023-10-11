@@ -22,9 +22,11 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
 }
 
 header nav ul {
+    background-color: #e7efe1;
     list-style: none;
     display: flex;
     column-gap: 15px;
@@ -39,8 +41,9 @@ header nav ul li a {
 }
 
 .logo {
-    width: 150px;
-    height: 150px;
+    background-color: #e7efe1;
+    width: 100px;
+    height: 100px;
 }
 
 /* Styles for main index */
@@ -289,6 +292,16 @@ a {
 
     header nav ul li a{
         font-size: 12px;
+    }
+
+    .contacto-img{
+        display: none;
+        visibility: hidden;
+    }
+
+    .arts-img {
+        display: none;
+        visibility: hidden;
     }
 }
 
