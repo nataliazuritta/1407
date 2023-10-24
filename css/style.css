@@ -25,7 +25,7 @@ header {
     width: 100%;
 }
 
-.logo {
+header .logo {
     background-color: #e7efe1;
     width: 100px;
     height: 100px;
