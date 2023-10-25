@@ -1,3 +1,42 @@
-h1 {
-    color: aquamarine;
+// Original SASS
+//importar un submodulo
+@import 'variables';
+@import "header";
+@import "main-index";
+@import "main-arts";
+@import "main-web";
+@import "footer";
+@import "media-queries";
+
+//sin padres?
+.caja-form {
+    margin: 0px;
 }
+
+.contenedor-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.item-left {
+    order: -1;
+    padding: 20px 100px 100px 300px;
+    line-height: 1;
+    align-content: center;
+    font-weight: 500;
+    text-align: center;
+}
+
+.item-right {
+    background-color: #ffffff;
+    order: -1;
+    padding-right: 200px;
+    width: 100px;
+}
+
+

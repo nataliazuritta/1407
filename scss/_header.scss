@@ -1,0 +1,45 @@
+/* Estilos header */
+header {
+    background-color: #e7efe1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+    .logo {
+        background-color: #e7efe1;
+        width: 100px;
+        height: 100px;
+        padding-bottom: 15px;
+    }
+
+    nav {
+        padding-right: 15px;
+        background-color: #e7efe1;
+
+        ul {
+            background-color: #e7efe1;
+            list-style: none;
+            display: flex;
+            column-gap: 15px;
+            margin: 0px;
+
+            li {
+                background-color: #e7efe1;
+
+                a {
+                    background-color: #e7efe1;
+                    text-decoration: none;
+                    font-size: 22px;
+                    color: #333333;
+                    font-weight: bolder;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+
+}

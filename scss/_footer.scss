@@ -1,0 +1,28 @@
+/* footer */
+footer {
+    background-color: #8d77ab;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    width: 100%;
+
+    a {
+        background-color: #8d77ab;
+
+        img {
+            .p-footer {
+                background-color: #8d77ab;
+                color: #ffffff;
+                font-size: smaller;
+                padding-top: 20px;
+
+                .word-italics {
+                    background-color: #8d77ab;
+                    color: #ffffff;
+                    font-style: italic;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,35 @@
+/* main seccion arts */
+main .main-arts {
+    section {
+        .contenedor-hand-flex {
+            background-color: $color-main;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            flex-flow: row;
+            justify-content: center;
+            align-items: center;
+            padding-bottom: 30px;
+            width: 100%;
+
+            .hand-img {
+                background-color: $color-main;
+                order: -1;
+                padding: 20px 50px 20px 0px;
+                line-height: 1;
+                align-content: left;
+            }
+
+            .text-right {
+                background-color: $color-main;
+                color: $color-footer;
+                text-align: left;
+                font-weight: normal;
+
+                p {
+                    background-color: $color-main;
+                }
+            }
+        }
+    }
+}

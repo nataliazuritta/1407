@@ -1,0 +1,43 @@
+/* main seccion home y contact */
+main {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    section {
+        empty {
+            padding: 10px;
+        }
+    }
+
+    section .contacto {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 100px;
+
+        .col-6-div {
+            background-color: #ffffff;
+            padding-top: 100px;
+            padding-right: 50px;
+
+            .txt-padding-bottom {
+                font-size: large;
+                font-style: bold;
+                padding-bottom: 25px;
+                text-align: center;
+            }
+
+            .purple-text {
+                color: $color-footer;
+                text-align: center;
+                font-size: 24px;
+                font-weight: bold;
+            }
+        }
+
+        .contacto-img {
+            width: 400px;
+            padding-right: 50px
+        }
+    }
+}

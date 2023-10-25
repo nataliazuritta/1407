@@ -17,6 +17,7 @@ html {
 /* ante emergencias usar !important; so it overrides any info on that specific item to the 'important' new value */
 
 /* how to change the navigation buttons in header */
+/*
 header {
     background-color: #e7efe1;
     display: flex;
@@ -57,12 +58,21 @@ header nav ul li a {
     font-weight: bolder;
 }
 
+header nav ul li a:hover{
+    text-decoration: underline;
+}
+*/
 
 /* Styles for main index */
+/*
 main {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.empty {
+    padding: 10px;
 }
 
 .contenedor-flex {
@@ -75,6 +85,7 @@ main {
     padding-bottom: 10px;
 }
 
+*/
 /* Section below is for main page flex */
 h1 {
     color: #333333;
@@ -83,6 +94,7 @@ h1 {
     text-align: center;
 }
 
+/*
 .col-6-div {
     background-color: #ffffff;
     padding-top: 100px;
@@ -103,6 +115,7 @@ h1 {
     font-weight: bold;
 }
 
+
 .item-left {
     order: -1;
     padding: 20px 100px 100px 300px;
@@ -118,7 +131,7 @@ h1 {
     padding-right: 200px;
     width: 100px;
 }
-
+*/
 
 /* Section below is styles for ABOUT flex */
 
@@ -140,6 +153,7 @@ h3 {
     padding-right: 20px;
 }
 
+/*
 .contenedor-hand-flex {
     background-color: #f3f3f3;
     display: flex;
@@ -171,12 +185,9 @@ h3 {
     background-color: #f3f3f3;
 }
 
-.empty {
-    padding: 10px;
-}
-
+*/
 /* Section below is styles for WEB flex */
-
+/*
 .row {
     padding-bottom: 20px;
     margin-bottom: 200px;
@@ -215,10 +226,10 @@ h3 {
     background-color: white;
     font-weight: bold;
 }
-
+*/
 
 /* Section below is styles for ART flex */
-
+/* the next 3 seem to not be part of html any more */
 .col-4 {
     background-color: #f3f3f3;
 }
@@ -239,12 +250,14 @@ h3 {
     padding-top: 5px;
 }
 
-.container {
+/*
+.container-web {
     background-color: #f3f3f3;
     margin-bottom: 100px;
 }
-
+*/
 /* Section below is Contact form */
+/*
 .contacto .contacto-img {
     width: 400px;
     padding-right: 50px;
@@ -263,12 +276,12 @@ h3 {
 .caja-form {
     margin: 0px;
 }
-
+*/
 /* Styles for Blog*/
 
 
 /* Stlyes for footer*/
-
+/*
 footer {
     background-color: #8d77ab;
     color: #ffffff;
@@ -294,9 +307,11 @@ a {
     color: #ffffff;
     font-style: italic;
 }
+*/
 
 
 /* media query smartphones below */
+/*
 @media (min-width: 320px) and (max-width: 768px) {
 
     header {
@@ -337,8 +352,10 @@ a {
         visibility: hidden;
     }
 }
+*/
 
 /* media query tablets below */
+/*
 @media (min-width: 769px) and (max-width: 1024x) {
 
     header {
@@ -353,3 +370,4 @@ a {
         font-size: 20px;
     }
 }
+*/

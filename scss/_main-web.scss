@@ -1,0 +1,45 @@
+/* web styles*/
+
+main .container-web {
+    background-color: $color-main;
+    margin-bottom: 100px;
+
+    .row {
+        padding-bottom: 20px;
+        margin-bottom: 200px;
+
+        .caja-card {
+            width: 200px;
+            height: 200px;
+            background-color: #ffffff;
+            border-radius: 20px 20px;
+            overflow: hidden;
+            box-shadow: 12px 10px 29px 0px rgba(202, 255, 57, 0.658);
+            -webkit-box-shadow: 12px 10px 29px 0px rgba(115, 21, 230, 0.292);
+            -moz-box-shadow: 12px 10px 29px 0px rgba(57, 255, 219, 0.75);
+            position: relative;
+            margin-bottom: 20px;
+
+            .card-img {
+                width: 100%;
+                background-color: white;
+                padding-top: 20px;
+            }
+
+            .card-text {
+                background-color: white;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                text-align: center;
+                height: 40px;
+                padding: 20px;
+
+                .web-p {
+                    background-color: white;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}

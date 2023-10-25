@@ -1,0 +1,76 @@
+/* media query smartphones below */
+@media (min-width: 320px) and (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+
+        nav {
+            ul {
+                flex-direction: column;
+
+                li {
+                    a {
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+
+
+    main {
+        section .contacto {
+            .col-6-div {
+                text-align: center;
+                align-items: center;
+            }
+
+            .contacto-img {
+                display: none;
+                visibility: hidden;
+            }
+        }
+    }
+
+
+    main .main-arts {
+        section {
+            .contenedor-hand-flex {
+                .hand-img {
+                    display: none;
+                    visibility: hidden;
+                }
+            }
+        }
+    }
+
+
+    .caja-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .arts-img {
+        display: none;
+        visibility: hidden;
+    }
+
+
+    /* media query tablets below */
+    @media (min-width: 769px) and (max-width: 1024x) {
+
+        header {
+            flex-direction: row;
+            nav {
+                ul {
+                    flex-direction: column;
+
+                    li {
+                        a {
+                            font-size: 20px;
+                        }
+                    }
+                }
+            }
+        }
