@@ -1,12 +1,13 @@
 // Original SASS
 //importar un submodulo
-@import 'variables';
-@import "header";
-@import "main-index";
-@import "main-arts";
-@import "main-web";
-@import "footer";
-@import "media-queries";
+@import 'utilities/lists';
+@import 'utilities/variables';
+@import "components/header";
+@import "pages/main-index";
+@import "pages/main-arts";
+@import "pages/main-web";
+@import "components/footer";
+@import "utilities/media-queries";
 
 /*
 //sin padres?
