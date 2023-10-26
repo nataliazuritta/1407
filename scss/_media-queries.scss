@@ -58,7 +58,7 @@
 
 
     /* media query tablets below */
-    @media (min-width: 769px) and (max-width: 1024x) {
+    @media (min-width: 769px) and (max-width: 1024x){
 
         header {
             flex-direction: row;
@@ -74,3 +74,4 @@
                 }
             }
         }
+    }}

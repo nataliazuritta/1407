@@ -1,18 +1,247 @@
-/* Error: expected "}".
- *    ,
- * 76 |         }
- *    |          ^
- *    '
- *   scss/_media-queries.scss 76:10  @import
- *   scss/main.scss 9:9              root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: 'Error: expected "}".\a    \2577 \a 76 \2502          }\a    \2502           ^\a    \2575 \a   scss/_media-queries.scss 76:10  @import\a   scss/main.scss 9:9              root stylesheet';
+/* Estilos header */
+header {
+  background-color: #e7efe1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }
+header .logo {
+  background-color: #e7efe1;
+  width: 100px;
+  height: 100px;
+  padding-bottom: 15px;
+}
+header nav {
+  padding-right: 15px;
+  background-color: #e7efe1;
+}
+header nav ul {
+  background-color: #e7efe1;
+  list-style: none;
+  display: flex;
+  column-gap: 15px;
+  margin: 0px;
+}
+header nav ul li {
+  background-color: #e7efe1;
+}
+header nav ul li a {
+  background-color: #e7efe1;
+  text-decoration: none;
+  font-size: 22px;
+  color: #333333;
+  font-weight: bolder;
+}
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* main seccion home y contact */
+main {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main section empty {
+  padding: 10px;
+}
+main section .contacto {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+main section .contacto .col-6-div {
+  background-color: #ffffff;
+  padding-top: 100px;
+  padding-right: 50px;
+}
+main section .contacto .col-6-div .txt-padding-bottom {
+  font-size: large;
+  font-style: bold;
+  padding-bottom: 25px;
+  text-align: center;
+}
+main section .contacto .col-6-div .purple-text {
+  color: #8d77ab;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+main section .contacto .contacto-img {
+  width: 400px;
+  padding-right: 50px;
+}
+
+/* main seccion arts */
+main .main-arts section .contenedor-hand-flex {
+  background-color: #f3f3f3;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+  width: 100%;
+}
+main .main-arts section .contenedor-hand-flex .hand-img {
+  background-color: #f3f3f3;
+  order: -1;
+  padding: 20px 50px 20px 0px;
+  line-height: 1;
+  align-content: left;
+}
+main .main-arts section .contenedor-hand-flex .text-right {
+  background-color: #f3f3f3;
+  color: #8d77ab;
+  text-align: left;
+  font-weight: normal;
+}
+main .main-arts section .contenedor-hand-flex .text-right p {
+  background-color: #f3f3f3;
+}
+
+/* web styles*/
+main .container-web {
+  background-color: #f3f3f3;
+  margin-bottom: 100px;
+}
+main .container-web .row {
+  padding-bottom: 20px;
+  margin-bottom: 200px;
+}
+main .container-web .row .caja-card {
+  width: 200px;
+  height: 200px;
+  background-color: #ffffff;
+  border-radius: 20px 20px;
+  overflow: hidden;
+  box-shadow: 12px 10px 29px 0px rgba(202, 255, 57, 0.658);
+  -webkit-box-shadow: 12px 10px 29px 0px rgba(115, 21, 230, 0.292);
+  -moz-box-shadow: 12px 10px 29px 0px rgba(57, 255, 219, 0.75);
+  position: relative;
+  margin-bottom: 20px;
+}
+main .container-web .row .caja-card .card-img {
+  width: 100%;
+  background-color: white;
+  padding-top: 20px;
+}
+main .container-web .row .caja-card .card-text {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 40px;
+  padding: 20px;
+}
+main .container-web .row .caja-card .card-text .web-p {
+  background-color: white;
+  font-weight: bold;
+}
+
+/* footer */
+footer {
+  background-color: #8d77ab;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  width: 100%;
+}
+footer a {
+  background-color: #8d77ab;
+}
+footer a img .p-footer {
+  background-color: #8d77ab;
+  color: #ffffff;
+  font-size: smaller;
+  padding-top: 20px;
+}
+footer a img .p-footer .word-italics {
+  background-color: #8d77ab;
+  color: #ffffff;
+  font-style: italic;
+}
+
+/* media query smartphones below */
+@media (min-width: 320px) and (max-width: 768px) {
+  header {
+    flex-direction: column;
+  }
+  header nav ul {
+    flex-direction: column;
+  }
+  header nav ul li a {
+    font-size: 12px;
+  }
+  main section .contacto .col-6-div {
+    text-align: center;
+    align-items: center;
+  }
+  main section .contacto .contacto-img {
+    display: none;
+    visibility: hidden;
+  }
+  main .main-arts section .contenedor-hand-flex .hand-img {
+    display: none;
+    visibility: hidden;
+  }
+  .caja-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .arts-img {
+    display: none;
+    visibility: hidden;
+  }
+  /* media query tablets below */
+}
+@media (min-width: 320px) and (max-width: 768px) and (min-width: 769px) and (max-width: 1024x) {
+  header {
+    flex-direction: row;
+  }
+  header nav ul {
+    flex-direction: column;
+  }
+  header nav ul li a {
+    font-size: 20px;
+  }
+}
+/*
+//sin padres?
+.caja-form {
+    margin: 0px;
+}
+
+.contenedor-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.item-left {
+    order: -1;
+    padding: 20px 100px 100px 300px;
+    line-height: 1;
+    align-content: center;
+    font-weight: 500;
+    text-align: center;
+}
+
+.item-right {
+    background-color: #ffffff;
+    order: -1;
+    padding-right: 200px;
+    width: 100px;
+}
+*/
+
+/*# sourceMappingURL=main.css.map */
