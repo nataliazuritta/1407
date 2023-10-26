@@ -1,7 +1,8 @@
 // Original SASS
 //importar un submodulo
-@import 'utilities/lists';
+@import 'utilities/reset';
 @import 'utilities/variables';
+@import 'utilities/lists';
 @import "components/header";
 @import "pages/main-index";
 @import "pages/main-arts";
