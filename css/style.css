@@ -258,15 +258,15 @@ h3 {
 
 /* Section below is Contact form */
 
-.contacto .contacto-img {
-    width: 400px;
-    padding-right: 50px;
-}
-
 .contacto {
     display: flex;
     justify-content: space-around;
     margin-bottom: 100px;
+}
+
+.contacto .contacto-img {
+    width: 400px;
+    padding-right: 50px;
 }
 
 .contacto .contacto-img img {
